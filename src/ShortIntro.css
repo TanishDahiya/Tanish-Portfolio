@@ -1,0 +1,102 @@
+.shortintro_image.four{
+    background-image: url("./images/banner-bg2.jpg");
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+ 
+   
+  
+}
+@media only screen and (max-width: 1000px){
+    .shortintro_image.four{
+    margin-left: 0;
+    margin-right: 0;
+    height:128vh;
+    }
+    .text{
+   /* margin-left: 170% !important;*/
+   /* transform: translateX(-69%) !important;*/
+   /* text-align: center;
+    margin-top: -152px;*/
+    font-size: 10px;
+   /* width: 100%;*/
+   top:125px !important;
+   padding:0 !important;
+   transform: none !important;
+   margin-left: -44px !important;
+   padding-right: 8% !important;
+    }
+    .shortintro_image.four
+   .banner-img img {
+       height:50vh !important;
+       left:1%;
+     /*    margin-left: 50% !important;*/
+     /*   transform: translateX(17%) !important;*/
+        text-align: center;
+      /*  margin-top: 20px !important;*/
+   }
+}
+.shortintro_image{
+    height: 700px;
+}
+.shortintro_image.four:before{
+  background-color: #5c2cff;
+   position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left:0;
+    opacity: .8;
+}
+.shortintro_image.four
+ .banner-img img {
+    position: absolute;
+    bottom: 0;
+    right: 75px;
+    max-width: 690px;
+    height:80vh;
+}
+.text{
+    color:white;
+    position: absolute;
+    padding: 6em;
+    transform: translateX(-709px);
+    margin-left: 50%;
+    top: 184px;
+    line-height: 1.5em;
+
+}
+    
+.text h1{
+    font-size: 4em;
+    font-weight: 700;
+   
+}
+.text h4{
+    font-weight: 700;
+}
+.shortshort{
+    display: inline-table;
+    padding:100px;
+}
+span{
+    font-size: 1em;
+    padding-bottom: 0.1em;
+}
+
+  .text button {
+      font-weight: bold;
+      margin-top: 30px;
+      color: #f1f1f1;
+      border: #f1f1f1 1px solid;
+      padding: 10px 5px;
+      background-color: hsla(0, 0%, 0%, 0);
+      font-size: 1.25rem;
+      border-radius: 5px;
+  }
+  .text button:hover {
+      background-color: #f1f1f1;
+      color: #000000c0;
+  }

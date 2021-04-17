@@ -1,0 +1,27 @@
+.aboutsection{
+margin-left: 50%;
+transform: translateX(-50%);
+text-align: center;
+font-size: 35px;
+}
+.aboutsection_para{
+    color: white;
+}/*
+.aboutsection img{
+    height: 70vh;
+}
+*/
+.videoTag{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    
+}
+@media screen and (max-width: 1000px) {
+    .video_height{
+        width: 300%;
+    }
+    .aboutsection{
+        font-size: 30px;
+    }
+}

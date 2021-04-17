@@ -1,0 +1,33 @@
+.blogwidth{
+    max-width: 980px;
+    margin: 0 auto;
+}
+.blog{
+    padding-top: 200px;
+}
+.blogwidth h1{
+    text-align: center;
+}
+.blogwidth img{
+    margin-top: 2em;
+}
+.blogwidth p{
+    line-height: 1.7em;
+    font-size: 1.2rem;
+    margin-top: 3em;
+    text-align: justify;
+    color: rgba(41, 41, 41, 1);
+}
+.blogwidth span{
+    margin-top: 2em;
+    text-align: center;
+    margin: 0 auto;
+
+}
+@media only screen and (max-width: 767px),
+	only screen and (max-device-width: 767px) {
+        .blogwidth p{
+            width: 90%;
+            margin: 0 auto;
+        }
+    }
