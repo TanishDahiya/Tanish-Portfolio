@@ -8,8 +8,8 @@ function NewIntro() {
             <div class="newintrowidth">
                 <div class="display">
                     <div class="newintrotext">
-                        <span>Hey it's</span>
-                        <h1>Tanish Dahiya</h1>
+                        <span>Hey there</span>
+                        <h1>I am Tanish Dahiya</h1>
                         <p>I am software developer and web designer focused on crafting and user-friendly experiences. I am passionate about building excellent software that improves the lives of those around me. My latest deal is I'm making as many useful things with the React as humanly possible.</p>
                     </div>
                     <div class="newintroimage">
